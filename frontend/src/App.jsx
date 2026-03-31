@@ -10,14 +10,14 @@ const products = [
     title: "UltraBook Pro M3",
     price: 1299,
     category: "Laptops",
-    image: "https://images.unsplash.com/photo-1517336714460-4c9889a10af5?auto=format&fit=crop&q=80&w=1000"
+    image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: 2,
     title: "Jordan Phone 15 Ultra",
     price: 999,
     category: "Smartphones",
-    image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=1000"
+    image: "https://images.unsplash.com/photo-1512054502232-10a0a035d672?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ const products = [
     title: "4K Cinema Projector",
     price: 899,
     category: "Home Theater",
-    image: "https://images.unsplash.com/photo-1535016120720-40c646bebbfc?auto=format&fit=crop&q=80&w=1000"
+    image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=1000"
   },
   {
     id: 5,
