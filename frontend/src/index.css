@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --primary: #0066FF;
+    --primary-dark: #0044CC;
+    --secondary: #6B7280;
+    --bg-dark: #0F172A;
+  }
+
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+  }
+}
+
+@layer utilities {
+  .text-primary {
+    color: var(--primary);
+  }
+  .bg-primary {
+    background-color: var(--primary);
+  }
+}
+
+/* Custom scrollbar for chat */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background-color: #CBD5E1;
+  border-radius: 20px;
+}
