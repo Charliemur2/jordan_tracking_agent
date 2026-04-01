@@ -27,10 +27,9 @@ STATIC_PHONE_KEY = os.getenv("GETVOCAL_STATIC_PHONE_KEY", "LEAD_PHONE_NUMBER")
 
 app = FastAPI()
 
-# Configure CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # In production, specify the frontend URL
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
